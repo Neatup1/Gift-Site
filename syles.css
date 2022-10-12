@@ -1,0 +1,87 @@
+#photo {
+  width: 200px;
+  border-radius: 200px;
+  border: 6px solid #efb0c9;
+}
+
+@font-face {
+  font-family: HappyMonkey;
+  src: url(/HappyMonkey-Regular.ttf);
+}
+body {
+  background: linear-gradient(purple, pink);
+  /* background-color: #a2d2ff; */
+  font-family: HappyMonkey;
+  text-align: center;
+  color: #ffffff;
+}
+h1,
+h2,
+h4 {
+  text-shadow: 0px 0px 1px black;
+}
+#warm {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #efb0c9;
+  margin-bottom: 10px;
+}
+#sky {
+  margin: 0%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #efb0c9;
+}
+#header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gift-section {
+  margin-top: 50px;
+}
+.gift-title {
+  margin-bottom: 10px;
+}
+.gift-hint {
+  margin-top: 0px;
+}
+.kim-gift {
+  margin: 0 auto;
+  width: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  height: 400px;
+  background-image: url(/img/gift-box-cover.jpg);
+  background-size: cover;
+}
+#kim-gift-happy:hover {
+  background-image: url(/img/IMG-20211214-WA0013.jpg);
+}
+#kim-gift-sexy:hover {
+  background-image: url(/img/shocked-candiace-dillard-bassett.gif);
+}
+#kim-gift-smart:hover {
+  background-image: url(/img/future-sensational.gif);
+}
+#kim-gift-flex:hover {
+  background-image: url(/img/show-some-respect-youre-in-the-presence-of-greatness.gif);
+}
+#kim-gift-drinks:hover {
+  background-image: url();
+  height: 200px;
+}
+#kim-gift-cheers {
+  height: 200px;
+}
+#kim-gift-cheers:hover {
+  background-image: url(/img/leonardo-dicaprio\ .gif);
+}
+#footer {
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+a {
+  color: white;
+}
